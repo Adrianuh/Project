@@ -1,0 +1,63 @@
+html,body {
+/* black background, arial font 14px, font weight 300, zero margins */
+	background-color:black; 
+	font-family:arial;
+	font-size:14px;
+	font-weight:300;
+	margin:0px;
+}
+
+#container {
+/* black background, full width of screen, background image bg.gif */
+	background-color:black;
+	max-width:1000px;
+	background-image:(bg.gif);
+	
+}
+
+#main {
+/* full width, white font, black background  */
+	width:100%;
+	color:white;
+	background-color:black;
+}
+#navbar {
+}
+#subnavbar {
+}
+
+#leftmain {
+/* text align to center, black background, float left, border 1px solid style  */
+/* YOU determine margins, padding, width, height to match ANSWERKEY.jpg */
+	text-align:center;
+	float:left;
+	border:1px;
+	border-style:solid;
+	padding:100px
+	
+	
+}
+#rightmain {
+/* black background, float left, border 1px solid style  */
+/* YOU determine margins, padding, width, height to match ANSWERKEY.jpg */
+	background-color:black;
+	padding:50px;
+	float:left;
+	border:1px;
+	border-style:solid;
+	margin-left:300px;
+	width:100%;
+	
+}
+a:link {
+	color:grey;
+}
+
+a:visited {
+	color:grey
+}
+
+a:hover {
+	color:white;
+	text-decoration:none;
+}
